@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8826F7461E657F6A0070A066 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 8826F7441E657F6A0070A066 /* delete.png */; };
+		8826F7471E657F6A0070A066 /* edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 8826F7451E657F6A0070A066 /* edit.png */; };
+		88307D721E540C0300D46E35 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88307D711E540C0300D46E35 /* EditViewController.m */; };
+		88307D751E540C2400D46E35 /* ExpensesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88307D741E540C2400D46E35 /* ExpensesViewController.m */; };
 		88D0A4651E52B94400D197A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D0A4641E52B94400D197A6 /* main.m */; };
 		88D0A4681E52B94400D197A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D0A4671E52B94400D197A6 /* AppDelegate.m */; };
 		88D0A46B1E52B94400D197A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D0A46A1E52B94400D197A6 /* ViewController.m */; };
@@ -15,6 +19,11 @@
 		88D0A4731E52B94400D197A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88D0A4711E52B94400D197A6 /* LaunchScreen.storyboard */; };
 		88D0A47E1E52B94400D197A6 /* Fuel_ExpensesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D0A47D1E52B94400D197A6 /* Fuel_ExpensesTests.m */; };
 		88D0A4891E52B94400D197A6 /* Fuel_ExpensesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D0A4881E52B94400D197A6 /* Fuel_ExpensesUITests.m */; };
+		88D0A4981E52C06500D197A6 /* FuelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D0A4971E52C06500D197A6 /* FuelViewController.m */; };
+		88D0A49B1E52C09600D197A6 /* RecordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D0A49A1E52C09600D197A6 /* RecordTableViewController.m */; };
+		88D0A4A31E52C86C00D197A6 /* RecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D0A4A21E52C86C00D197A6 /* RecordTableViewCell.m */; };
+		88D0A4A61E52D6F500D197A6 /* ChangePriceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D0A4A51E52D6F500D197A6 /* ChangePriceViewController.m */; };
+		88D0A4A91E52DE1200D197A6 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D0A4A81E52DE1200D197A6 /* libsqlite3.0.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8826F7441E657F6A0070A066 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		8826F7451E657F6A0070A066 /* edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit.png; sourceTree = "<group>"; };
+		88307D701E540C0300D46E35 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		88307D711E540C0300D46E35 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		88307D731E540C2400D46E35 /* ExpensesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpensesViewController.h; sourceTree = "<group>"; };
+		88307D741E540C2400D46E35 /* ExpensesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpensesViewController.m; sourceTree = "<group>"; };
 		88D0A4601E52B94400D197A6 /* Fuel_Expenses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fuel_Expenses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88D0A4641E52B94400D197A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		88D0A4661E52B94400D197A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +66,15 @@
 		88D0A4841E52B94400D197A6 /* Fuel_ExpensesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fuel_ExpensesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88D0A4881E52B94400D197A6 /* Fuel_ExpensesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fuel_ExpensesUITests.m; sourceTree = "<group>"; };
 		88D0A48A1E52B94400D197A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88D0A4961E52C06500D197A6 /* FuelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuelViewController.h; sourceTree = "<group>"; };
+		88D0A4971E52C06500D197A6 /* FuelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuelViewController.m; sourceTree = "<group>"; };
+		88D0A4991E52C09600D197A6 /* RecordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordTableViewController.h; sourceTree = "<group>"; };
+		88D0A49A1E52C09600D197A6 /* RecordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordTableViewController.m; sourceTree = "<group>"; };
+		88D0A4A11E52C86C00D197A6 /* RecordTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordTableViewCell.h; sourceTree = "<group>"; };
+		88D0A4A21E52C86C00D197A6 /* RecordTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordTableViewCell.m; sourceTree = "<group>"; };
+		88D0A4A41E52D6F500D197A6 /* ChangePriceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangePriceViewController.h; sourceTree = "<group>"; };
+		88D0A4A51E52D6F500D197A6 /* ChangePriceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePriceViewController.m; sourceTree = "<group>"; };
+		88D0A4A81E52DE1200D197A6 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88D0A4A91E52DE1200D197A6 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +110,7 @@
 				88D0A47C1E52B94400D197A6 /* Fuel_ExpensesTests */,
 				88D0A4871E52B94400D197A6 /* Fuel_ExpensesUITests */,
 				88D0A4611E52B94400D197A6 /* Products */,
+				88D0A4A71E52DE1200D197A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,7 +131,21 @@
 				88D0A4671E52B94400D197A6 /* AppDelegate.m */,
 				88D0A4691E52B94400D197A6 /* ViewController.h */,
 				88D0A46A1E52B94400D197A6 /* ViewController.m */,
+				88D0A4961E52C06500D197A6 /* FuelViewController.h */,
+				88D0A4971E52C06500D197A6 /* FuelViewController.m */,
+				88D0A4A41E52D6F500D197A6 /* ChangePriceViewController.h */,
+				88D0A4A51E52D6F500D197A6 /* ChangePriceViewController.m */,
+				88D0A4991E52C09600D197A6 /* RecordTableViewController.h */,
+				88D0A49A1E52C09600D197A6 /* RecordTableViewController.m */,
+				88D0A4A11E52C86C00D197A6 /* RecordTableViewCell.h */,
+				88D0A4A21E52C86C00D197A6 /* RecordTableViewCell.m */,
+				88307D701E540C0300D46E35 /* EditViewController.h */,
+				88307D711E540C0300D46E35 /* EditViewController.m */,
+				88307D731E540C2400D46E35 /* ExpensesViewController.h */,
+				88307D741E540C2400D46E35 /* ExpensesViewController.m */,
 				88D0A46C1E52B94400D197A6 /* Main.storyboard */,
+				8826F7441E657F6A0070A066 /* delete.png */,
+				8826F7451E657F6A0070A066 /* edit.png */,
 				88D0A46F1E52B94400D197A6 /* Assets.xcassets */,
 				88D0A4711E52B94400D197A6 /* LaunchScreen.storyboard */,
 				88D0A4741E52B94400D197A6 /* Info.plist */,
@@ -138,6 +178,14 @@
 				88D0A48A1E52B94400D197A6 /* Info.plist */,
 			);
 			path = Fuel_ExpensesUITests;
+			sourceTree = "<group>";
+		};
+		88D0A4A71E52DE1200D197A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88D0A4A81E52DE1200D197A6 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +255,7 @@
 				TargetAttributes = {
 					88D0A45F1E52B94300D197A6 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J7MGKG8D8M;
 						ProvisioningStyle = Automatic;
 					};
 					88D0A4781E52B94400D197A6 = {
@@ -246,6 +295,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8826F7461E657F6A0070A066 /* delete.png in Resources */,
+				8826F7471E657F6A0070A066 /* edit.png in Resources */,
 				88D0A4731E52B94400D197A6 /* LaunchScreen.storyboard in Resources */,
 				88D0A4701E52B94400D197A6 /* Assets.xcassets in Resources */,
 				88D0A46E1E52B94400D197A6 /* Main.storyboard in Resources */,
@@ -273,8 +324,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88D0A4A31E52C86C00D197A6 /* RecordTableViewCell.m in Sources */,
 				88D0A46B1E52B94400D197A6 /* ViewController.m in Sources */,
+				88D0A49B1E52C09600D197A6 /* RecordTableViewController.m in Sources */,
 				88D0A4681E52B94400D197A6 /* AppDelegate.m in Sources */,
+				88307D721E540C0300D46E35 /* EditViewController.m in Sources */,
+				88307D751E540C2400D46E35 /* ExpensesViewController.m in Sources */,
+				88D0A4A61E52D6F500D197A6 /* ChangePriceViewController.m in Sources */,
+				88D0A4981E52C06500D197A6 /* FuelViewController.m in Sources */,
 				88D0A4651E52B94400D197A6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +481,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J7MGKG8D8M;
 				INFOPLIST_FILE = Fuel_Expenses/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Fuel-Expenses";
@@ -435,6 +493,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J7MGKG8D8M;
 				INFOPLIST_FILE = Fuel_Expenses/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Fuel-Expenses";
@@ -507,6 +566,7 @@
 				88D0A48F1E52B94400D197A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88D0A4901E52B94400D197A6 /* Build configuration list for PBXNativeTarget "Fuel_ExpensesTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +575,7 @@
 				88D0A4921E52B94400D197A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88D0A4931E52B94400D197A6 /* Build configuration list for PBXNativeTarget "Fuel_ExpensesUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +584,7 @@
 				88D0A4951E52B94400D197A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
