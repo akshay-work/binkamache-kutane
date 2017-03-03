@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8824491F1E66ED390010FEB8 /* AddVegetableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8824491E1E66ED390010FEB8 /* AddVegetableViewController.m */; };
+		882FD6D41E67E2020047EA14 /* CartNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882FD6D31E67E2020047EA14 /* CartNewViewController.m */; };
+		882FD6D61E6846BD0047EA14 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 882FD6D51E6846BD0047EA14 /* delete.png */; };
 		8838A1231E56ABB700B454E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8838A1221E56ABB700B454E5 /* main.m */; };
 		8838A1261E56ABB700B454E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8838A1251E56ABB700B454E5 /* AppDelegate.m */; };
 		8838A1291E56ABB700B454E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8838A1281E56ABB700B454E5 /* ViewController.m */; };
-		8838A12C1E56ABB700B454E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8838A12A1E56ABB700B454E5 /* Main.storyboard */; };
 		8838A12E1E56ABB700B454E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8838A12D1E56ABB700B454E5 /* Assets.xcassets */; };
 		8838A1311E56ABB700B454E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8838A12F1E56ABB700B454E5 /* LaunchScreen.storyboard */; };
 		8838A13C1E56ABB700B454E5 /* Veg_Expenses2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8838A13B1E56ABB700B454E5 /* Veg_Expenses2Tests.m */; };
 		8838A1471E56ABB700B454E5 /* Veg_Expenses2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8838A1461E56ABB700B454E5 /* Veg_Expenses2UITests.m */; };
+		8838A1581E56BAEA00B454E5 /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8838A1571E56BAEA00B454E5 /* MenuTableViewCell.m */; };
+		8838A15B1E56F74000B454E5 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8838A15A1E56F74000B454E5 /* libsqlite3.0.tbd */; };
+		8838A1611E57135C00B454E5 /* CartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8838A1601E57135C00B454E5 /* CartTableViewCell.m */; };
+		88415C441E60213600F5EE13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88415C431E60213600F5EE13 /* Main.storyboard */; };
+		88415C471E60325B00F5EE13 /* TotalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88415C461E60325B00F5EE13 /* TotalViewController.m */; };
+		88472BD01E69661B00117380 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 88472BCE1E69661B00117380 /* add.png */; };
+		88472BD11E69661B00117380 /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 88472BCF1E69661B00117380 /* tick.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +44,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8824491D1E66ED390010FEB8 /* AddVegetableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddVegetableViewController.h; sourceTree = "<group>"; };
+		8824491E1E66ED390010FEB8 /* AddVegetableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddVegetableViewController.m; sourceTree = "<group>"; };
+		882FD6D21E67E2020047EA14 /* CartNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartNewViewController.h; sourceTree = "<group>"; };
+		882FD6D31E67E2020047EA14 /* CartNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartNewViewController.m; sourceTree = "<group>"; };
+		882FD6D51E6846BD0047EA14 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
 		8838A11E1E56ABB700B454E5 /* Veg_Expenses2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Veg_Expenses2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8838A1221E56ABB700B454E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8838A1241E56ABB700B454E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8838A1251E56ABB700B454E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8838A1271E56ABB700B454E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8838A1281E56ABB700B454E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8838A12B1E56ABB700B454E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8838A12D1E56ABB700B454E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8838A1301E56ABB700B454E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8838A1321E56ABB700B454E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +64,16 @@
 		8838A1421E56ABB700B454E5 /* Veg_Expenses2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Veg_Expenses2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8838A1461E56ABB700B454E5 /* Veg_Expenses2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Veg_Expenses2UITests.m; sourceTree = "<group>"; };
 		8838A1481E56ABB700B454E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8838A1561E56BAEA00B454E5 /* MenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewCell.h; sourceTree = "<group>"; };
+		8838A1571E56BAEA00B454E5 /* MenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewCell.m; sourceTree = "<group>"; };
+		8838A15A1E56F74000B454E5 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		8838A15F1E57135C00B454E5 /* CartTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartTableViewCell.h; sourceTree = "<group>"; };
+		8838A1601E57135C00B454E5 /* CartTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartTableViewCell.m; sourceTree = "<group>"; };
+		88415C431E60213600F5EE13 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		88415C451E60325B00F5EE13 /* TotalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TotalViewController.h; sourceTree = "<group>"; };
+		88415C461E60325B00F5EE13 /* TotalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TotalViewController.m; sourceTree = "<group>"; };
+		88472BCE1E69661B00117380 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		88472BCF1E69661B00117380 /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8838A15B1E56F74000B454E5 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +109,7 @@
 				8838A13A1E56ABB700B454E5 /* Veg_Expenses2Tests */,
 				8838A1451E56ABB700B454E5 /* Veg_Expenses2UITests */,
 				8838A11F1E56ABB700B454E5 /* Products */,
+				8838A1591E56F73F00B454E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +128,22 @@
 			children = (
 				8838A1241E56ABB700B454E5 /* AppDelegate.h */,
 				8838A1251E56ABB700B454E5 /* AppDelegate.m */,
+				8824491D1E66ED390010FEB8 /* AddVegetableViewController.h */,
+				8824491E1E66ED390010FEB8 /* AddVegetableViewController.m */,
 				8838A1271E56ABB700B454E5 /* ViewController.h */,
 				8838A1281E56ABB700B454E5 /* ViewController.m */,
-				8838A12A1E56ABB700B454E5 /* Main.storyboard */,
+				8838A1561E56BAEA00B454E5 /* MenuTableViewCell.h */,
+				8838A1571E56BAEA00B454E5 /* MenuTableViewCell.m */,
+				882FD6D21E67E2020047EA14 /* CartNewViewController.h */,
+				882FD6D31E67E2020047EA14 /* CartNewViewController.m */,
+				8838A15F1E57135C00B454E5 /* CartTableViewCell.h */,
+				8838A1601E57135C00B454E5 /* CartTableViewCell.m */,
+				88415C451E60325B00F5EE13 /* TotalViewController.h */,
+				88415C461E60325B00F5EE13 /* TotalViewController.m */,
+				88415C431E60213600F5EE13 /* Main.storyboard */,
+				88472BCE1E69661B00117380 /* add.png */,
+				88472BCF1E69661B00117380 /* tick.png */,
+				882FD6D51E6846BD0047EA14 /* delete.png */,
 				8838A12D1E56ABB700B454E5 /* Assets.xcassets */,
 				8838A12F1E56ABB700B454E5 /* LaunchScreen.storyboard */,
 				8838A1321E56ABB700B454E5 /* Info.plist */,
@@ -138,6 +176,14 @@
 				8838A1481E56ABB700B454E5 /* Info.plist */,
 			);
 			path = Veg_Expenses2UITests;
+			sourceTree = "<group>";
+		};
+		8838A1591E56F73F00B454E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8838A15A1E56F74000B454E5 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +253,7 @@
 				TargetAttributes = {
 					8838A11D1E56ABB700B454E5 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J7MGKG8D8M;
 						ProvisioningStyle = Automatic;
 					};
 					8838A1361E56ABB700B454E5 = {
@@ -246,9 +293,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				882FD6D61E6846BD0047EA14 /* delete.png in Resources */,
 				8838A1311E56ABB700B454E5 /* LaunchScreen.storyboard in Resources */,
+				88472BD11E69661B00117380 /* tick.png in Resources */,
+				88415C441E60213600F5EE13 /* Main.storyboard in Resources */,
+				88472BD01E69661B00117380 /* add.png in Resources */,
 				8838A12E1E56ABB700B454E5 /* Assets.xcassets in Resources */,
-				8838A12C1E56ABB700B454E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +323,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88415C471E60325B00F5EE13 /* TotalViewController.m in Sources */,
 				8838A1291E56ABB700B454E5 /* ViewController.m in Sources */,
+				882FD6D41E67E2020047EA14 /* CartNewViewController.m in Sources */,
+				8838A1611E57135C00B454E5 /* CartTableViewCell.m in Sources */,
 				8838A1261E56ABB700B454E5 /* AppDelegate.m in Sources */,
+				8838A1581E56BAEA00B454E5 /* MenuTableViewCell.m in Sources */,
 				8838A1231E56ABB700B454E5 /* main.m in Sources */,
+				8824491F1E66ED390010FEB8 /* AddVegetableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +366,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8838A12A1E56ABB700B454E5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8838A12B1E56ABB700B454E5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8838A12F1E56ABB700B454E5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -424,7 +471,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J7MGKG8D8M;
 				INFOPLIST_FILE = Veg_Expenses2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Veg-Expenses2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +484,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J7MGKG8D8M;
 				INFOPLIST_FILE = Veg_Expenses2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Veg-Expenses2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +558,7 @@
 				8838A14D1E56ABB700B454E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8838A14E1E56ABB700B454E5 /* Build configuration list for PBXNativeTarget "Veg_Expenses2Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +567,7 @@
 				8838A1501E56ABB700B454E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8838A1511E56ABB700B454E5 /* Build configuration list for PBXNativeTarget "Veg_Expenses2UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +576,7 @@
 				8838A1531E56ABB700B454E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
